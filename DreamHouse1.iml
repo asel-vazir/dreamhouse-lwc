@@ -73,6 +73,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="classFieldnotEmptycontrl" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="DreamHouseSampleDataController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -85,11 +89,11 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="FieldNotEmptyTest" />
+                            <option name="name" value="FieldnotEmptycontrl" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
-                            <option name="name" value="FieldnotEmptycontrl" />
+                            <option name="name" value="FieldNotEmptyTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -166,6 +170,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="HandlerTravelApproval" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="HomeImprovRollUpSumTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -252,10 +260,6 @@
                             <option name="name" value="SlackOpportunityPublisherTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
-                          <MetadataEntry>
-                            <option name="name" value="classFieldnotEmptycontrl" />
-                            <option name="selected" value="true" />
-                          </MetadataEntry>
                         </list>
                       </option>
                       <option name="name" value="ApexClass" />
@@ -293,6 +297,10 @@
                     <MetadataType>
                       <option name="entries">
                         <list>
+                          <MetadataEntry>
+                            <option name="name" value="AddRelatedRecord" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="AvgUtilityTrigger" />
                             <option name="selected" value="true" />
