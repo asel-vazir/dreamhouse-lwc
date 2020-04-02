@@ -21,18 +21,16 @@ trigger AddRelatedRecord on Account (after insert, after update) {
         List<Account> accountsWithoutOppsAndGotUpdated = [
                 SELECT Id, Name
                 FROM Account
-                WHERE Id NOT IN (SELECT AccountId FROM Opportunity) AND Id IN :Trigger.new];
+                WHERE Id NOT IN (SELECT AccountId FROM Opportunity) AND Id IN :Trigger.new
+        ];
 
-        //Asel, I wanted to use the same coding format below as I used in lines 10-13
-        //but I couldn't figure out how it make it work
         for (Account a : accountsWithoutOppsAndGotUpdated) {
             oppList.add(new Opportunity(Name = a.Name + ' Opportunity',
                     StageName = 'Prospecting',
                     CloseDate = System.today().addMonths(1),
                     AccountId = a.Id));
         }
-        insert oppList;
+        update oppList;
     }
 }
 
-}

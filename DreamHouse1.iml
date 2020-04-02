@@ -29,6 +29,10 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="AddRelatedRecordTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="AvgUtilityCalculation" />
                             <option name="selected" value="true" />
                           </MetadataEntry>

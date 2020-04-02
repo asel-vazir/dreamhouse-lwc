@@ -19,10 +19,12 @@ public class HomeImprovementRollUpSum {
             prop.SUM_of_Improvements__c = Sum;
             properties.add(prop);
         }
-        try {
+        /*try {
             update properties ;
         } catch (Exception e) {
             System.debug('Exception :' + e.getMessage());
         }
+
+         */
     }
 }
