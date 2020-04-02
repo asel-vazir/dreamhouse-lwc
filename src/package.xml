@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>AddRelatedRecordTestDataFactory</members>
         <members>AvgUtilityCalculation</members>
         <members>AvgUtilityCalculationTest</members>
         <members>BotController</members>
@@ -36,6 +37,8 @@
         <members>HandlerSOQL</members>
         <members>HandlerTopOpportunities</members>
         <members>HandlerTravelApproval</members>
+        <members>HomeImprovRollUpSumTest</members>
+        <members>HomeImprovementRollUpSum</members>
         <members>HttpFormBuilder</members>
         <members>InvoiceCreateProcess</members>
         <members>InvoiceCreateProcessSchedulable</members>
@@ -68,7 +71,9 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>AddRelatedRecord</members>
         <members>AvgUtilityTrigger</members>
+        <members>HomeImprovementSumTrigger</members>
         <members>PopulateOneOfTheTwoFields</members>
         <members>PushNotificationTrigger</members>
         <members>RejectDuplicateFavorite</members>

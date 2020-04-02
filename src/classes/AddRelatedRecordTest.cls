@@ -7,15 +7,31 @@ private class AddRelatedRecordTest {
 
     @IsTest public static void addRelatedRecordTestonInsert() {
 
-        Account testAcc = new Account();
-        testAcc.Name = 'My Account Test';
+        Account testAcc = new Account(Name = 'My Account Test');
         insert testAcc;
+        //delete the Opp created by the Account insert
+
+        delete [SELECT Id FROM Opportunity];
+        testAcc.Name = 'My Account Test';
+
+        Test.startTest();
         update testAcc;
+        Test.stopTest();
 
+        List<Opportunity> oppsAfterUpdate = new List<Opportunity>([
+                SELECT Id
+                FROM Opportunity
+                WHERE Account.Name = 'My Account Test'
+        ]);
 
-        System.assertEquals('Opportunity', 'Opportunity');
-        System.assert(true, 'Account Updated');
+        System.assertNotEquals(0, oppsAfterUpdate.size(), 'An Opp should have been inserted.');
 
     }
 
 }
+//        Account testAcc = new Account(Name = 'My Account Test');
+//        insert testAcc;
+//
+//        update [SELECT Id FROM Opportunity WHERE Account.Name = 'My Account Test'];
+//
+//        System.assert([SELECT Id FROM Opportunity WHERE AccountId = : testAcc.Id].size() == 1);
