@@ -37,6 +37,18 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="AnimalsCallouts" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AnimalsCalloutsTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="AnimalsHttpCalloutMock" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="AvgUtilityCalculation" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -296,6 +308,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="HeatMapMock" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="helloworld" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                         </list>
@@ -4350,6 +4366,10 @@
                         <list>
                           <MetadataEntry>
                             <option name="name" value="countup7" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="GetAnimalResource" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
