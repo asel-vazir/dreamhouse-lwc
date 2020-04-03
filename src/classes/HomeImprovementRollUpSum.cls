@@ -15,8 +15,8 @@ public class HomeImprovementRollUpSum {
                                  FROM Property__c
                                  WHERE Id =:ids]) {
             Decimal Sum = 0;
-            for (Home_Improvement__c p : prop.Home_Improvements__r) {
-                Sum = Sum + p.Amount__c ;
+            for (Home_Improvement__c hp : prop.Home_Improvements__r) {
+                Sum = Sum + hp.Amount__c ;
             }
             prop.SUM_of_Improvements__c = Sum;
             properties.add(prop);
