@@ -24,7 +24,7 @@ private class AddRelatedRecordTest {
                 WHERE Account.Name = 'My Account Test'
         ]);
 
-        System.assertNotEquals(0, oppsAfterUpdate.size(), 'An Opp should have been inserted.');
+        System.assertEquals(2, oppsAfterUpdate.size());
 
     }
 
@@ -32,6 +32,6 @@ private class AddRelatedRecordTest {
 //        Account testAcc = new Account(Name = 'My Account Test');
 //        insert testAcc;
 //
-//        update [SELECT Id FROM Opportunity WHERE Account.Name = 'My Account Test'];
+//        delete [SELECT Id FROM Opportunity WHERE Account.Name = 'My Account Test'];
 //
 //        System.assert([SELECT Id FROM Opportunity WHERE AccountId = : testAcc.Id].size() == 1);

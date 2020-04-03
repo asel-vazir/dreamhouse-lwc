@@ -16,20 +16,23 @@ trigger AddRelatedRecord on Account (after insert, after update) {
     }
 
     if (Trigger.isUpdate) {
-        List<Opportunity> oppList = new List<Opportunity>();
 
         List<Account> accountsWithoutOppsAndGotUpdated = [
                 SELECT Id, Name
                 FROM Account
                 WHERE Id NOT IN (SELECT AccountId FROM Opportunity) AND Id IN :Trigger.new];
 
+        System.debug(Trigger.new);
 
+        List<Opportunity> oppList = new List<Opportunity>();
+        System.debug(oppList);
         for (Account a : accountsWithoutOppsAndGotUpdated) {
             oppList.add(new Opportunity(Name = a.Name + ' Opportunity',
                     StageName = 'Prospecting',
                     CloseDate = System.today().addMonths(1),
                     AccountId = a.Id));
         }
+        System.debug(oppList);
         insert oppList;
     }
 }
@@ -51,7 +54,7 @@ trigger AddRelatedRecord on Account (after insert, after update) {
 //        }
 //
 //    if (Trigger.isUpdate) {
-//            update oppList;
+//            insert oppList;
 //        }
 //    }
 

@@ -29,6 +29,10 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="AddOppToAccountTest" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="AddRelatedRecordTest" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -306,6 +310,10 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="AddOppToAccount" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="AddRelatedRecord" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -431,6 +439,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="FormattedDate" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="HelloWorld" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
