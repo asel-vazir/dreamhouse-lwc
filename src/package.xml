@@ -20,6 +20,7 @@
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
+        <members>FOBCallouts</members>
         <members>FieldNotEmptyTest</members>
         <members>FieldnotEmptycontrl</members>
         <members>HandlerAddTwoNumbers</members>
@@ -217,6 +218,7 @@
         <members>Support_Tier__mdt.Default_Discount__c</members>
         <members>Support_Tier__mdt.Minimum_Spending__c</members>
         <members>Tenant__c.Monthly_Rate__c</members>
+        <members>Tenant__c.Move_Out_Date__c</members>
         <members>Tenant__c.Property__c</members>
         <members>Tenant__c.Rent_Due_Date__c</members>
         <members>Utility__c.Amount_Paid__c</members>
