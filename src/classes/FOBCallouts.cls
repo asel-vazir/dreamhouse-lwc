@@ -10,7 +10,7 @@ public class FOBCallouts {
         request.setEndpoint('https://th-apex-http-callout.herokuapp.com/animals');
         request.setMethod('POST');
         request.setHeader('Content-Type', 'application/json;charset=UTF-8');
-        request.setBody('{"Please deactivate FOB for the following tenants" : "Tenant"}');
+        request.setBody('{"name" : "Tenant"}');
         HttpResponse response = http.send(request);
 
         if (response.getStatusCode() != 201) {

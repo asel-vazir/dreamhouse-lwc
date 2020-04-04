@@ -8,4 +8,4 @@ global class InvoiceGenerateBatchScheduled implements Schedulable {
         Database.executeBatch(invBatch, 200);
 
     }
-}F
+}

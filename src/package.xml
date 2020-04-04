@@ -20,7 +20,12 @@
         <members>DreamHouseSampleDataController</members>
         <members>EinsteinVisionController</members>
         <members>EinsteinVisionControllerTest</members>
+        <members>FOBCalloutBatchJob</members>
+        <members>FOBCalloutSchedulableTest</members>
+        <members>FOBCalloutScheduled</members>
+        <members>FOBCalloutTest</members>
         <members>FOBCallouts</members>
+        <members>FOBCalloutsSchedulable</members>
         <members>FieldNotEmptyTest</members>
         <members>FieldnotEmptycontrl</members>
         <members>HandlerAddTwoNumbers</members>
@@ -383,6 +388,7 @@
     </types>
     <types>
         <members>GetAnimalResource</members>
+        <members>GetTenantResource</members>
         <members>countup7</members>
         <members>heatmap</members>
         <members>heatmapmock</members>
