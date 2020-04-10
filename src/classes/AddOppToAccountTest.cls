@@ -1,6 +1,3 @@
-/**
- * Created by Asel on 4/2/20.
- */
 
 @IsTest
 private class AddOppToAccountTest {

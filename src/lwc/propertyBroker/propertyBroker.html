@@ -1,0 +1,26 @@
+<!--
+ - Created by Asel on 4/7/20.
+ -->
+
+<!-- Property Supervisor -->
+<template>
+    <lightning-card title="Broker" icon-name="standard:people">
+        <div class="slds-m-around_medium">
+            <!--Show supervisor when property is loaded-->
+            <template if:true={property.data}>
+                <!--Displays a compact view of the supervisor (Contact) record with a lightning-record-form-->
+                <lightning-record-form
+                    object-api-name="Broker"
+                    record-id={supervisorId}
+                    layout-type="Compact">
+                </lightning-record-form>
+            </template>
+            <!-- Data failed to load-->
+            <template if:true={property.error}>
+                <div class="slds-text-color_error">
+                    An error occurred while loading the property record
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -387,6 +387,12 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>propertyBroker</members>
+        <members>propertyLocation</members>
+        <members>propertySupervisor</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
         <members>GetAnimalResource</members>
         <members>GetTenantResource</members>
         <members>countup7</members>

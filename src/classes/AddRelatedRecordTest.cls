@@ -29,9 +29,3 @@ private class AddRelatedRecordTest {
     }
 
 }
-//        Account testAcc = new Account(Name = 'My Account Test');
-//        insert testAcc;
-//
-//        delete [SELECT Id FROM Opportunity WHERE Account.Name = 'My Account Test'];
-//
-//        System.assert([SELECT Id FROM Opportunity WHERE AccountId = : testAcc.Id].size() == 1);
