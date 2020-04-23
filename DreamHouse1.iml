@@ -362,6 +362,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="AddTwoOppToNewAccount" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="AvgUtilityTrigger" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
